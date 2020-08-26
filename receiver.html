@@ -1,0 +1,17 @@
+<html>
+<body bgcolor="red">
+<h1>Hello World!!</h1>
+<!--<form action="send">
+Enter Message: <input type="name" name="msg"><br><br>-->
+<form action="ty" method="post">
+{% csrf_token %}
+<input type="number" name="pk" value="{{e}}">
+<br>
+<input type="number" name="n" value="{{n}}"><br>
+<input type="number" name="f" value="{{f}}"><br>
+<button type ="submit" style="background-color:green;cursor:pointer;color:white;border-radius:20px">Send Values</button>
+</form>
+<!--<button type="submit">submit-->
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+<html>
+<body bgcolor="lightgray">
+<form action="r" method="post">
+{% csrf_token %}
+Decrypted: <input type="name" name="d"><br><br>
+Value of N: <input type="number" name="n"><br><br>
+Value Of E: <input type="number" name="e"><br><br>
+Value of F:<input type="number" name="f"><br><br>
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,1 @@
+web: gunicorn Encrypter.wsgi --log-file -

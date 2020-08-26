@@ -1,0 +1,20 @@
+<html>
+
+<body bgcolor="lightblue">
+<form action="receiver" method="post">
+{% csrf_token %}
+
+<h1>Enter two large prime numbers:<br>
+eg. 7,11,13,19,23,29,47,etc...<br></h1>
+<input type="number" name="p1" value="{{val1}}">
+<input type="number" name="q" value="{{val2}}">
+<button type="submit">Submit</button>
+</form>
+<form action="gen" method="post">
+{% csrf_token %}
+
+<button type="submit" style="color:white;background-color:green;border-radius:50%;padding:30px;font-size:20px">Generate</button>
+</form>
+<h1>You have Generated these numbers:<br>{{val1}}&nbsp&nbsp{{val2}}
+
+</body>

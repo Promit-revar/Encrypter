@@ -1,0 +1,17 @@
+<html>
+<body bgcolor="green">
+<form action="send" method="post">
+{% csrf_token %}
+Enter message: <input type="name" name="msg"><br><br>
+<input type="number" name="pk" value="{{e}}">
+<br>
+<input type="number" name="n" value="{{n}}"><br>
+<input type="number" name="f" value="{{f}}">
+<h1>{{op}}</h1>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
