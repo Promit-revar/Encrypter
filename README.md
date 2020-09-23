@@ -1,3 +1,3 @@
 # Encrypter
-An encrypter made using django
-The web app made using django framework demonstrating basic RSA method to encrypt the text message and correspondingly  
+
+The web app made using django framework demonstrating basic RSA method to encrypt the text message and correspondingly generate keys to decrypt the message using same app by the expected user...
